@@ -37,10 +37,10 @@ export default function TextFrom(props) {
         <h1>{props.tile}</h1>
         <textarea className="form-control" value={text} onChange={handleOnChange} style={{backgroundColor:props.mode==='dark'?'grey':'white' , color:props.mode==='dark'?'white':'black'}} id="myBox" rows="8"></textarea>
     </div>
-    <button className="btn btn-primary mx-2" onClick={handleUpClick}>ConvertToUpperCase</button>
-    <button className="btn btn-primary mx-2" onClick={handleLoClick}>ConvertToLowerCase</button>
-    <button className="btn btn-primary mx-2" onClick={handleCls}>Clear</button>
-    <button className="btn btn-primary mx-2" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
+    <button className="btn btn-primary mx-2 my-2" onClick={handleUpClick}>ConvertToUpperCase</button>
+    <button className="btn btn-primary mx-2 my-2" onClick={handleLoClick}>ConvertToLowerCase</button>
+    <button className="btn btn-primary mx-2 my-2" onClick={handleCls}>Clear</button>
+    <button className="btn btn-primary mx-2 my-2" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
 
     <div className="contianer my-3" style={{color:props.mode==='dark'?'white':'black'}} >
         <h1>Summary of your text</h1>
