@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import TextFrom from './components/TextFrom';
 import Alert from './components/Alert';
+import Login from './components/pages/login';
 // import About from './components/About';
 import React, {useState} from 'react'
 // import{
@@ -52,7 +53,7 @@ function App() {
 
           <Route */}
             {/* path="/" element= */}
-              <TextFrom showAlert={showAlert} title="Enter your text" mode={mode} />
+              <Login />
             {/* // } */}
           {/* // /> */}
         {/* </Routes> */}
